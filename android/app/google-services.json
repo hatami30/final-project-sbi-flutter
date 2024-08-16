@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "614429174674",
+    "project_id": "final-project-8fbf0",
+    "storage_bucket": "final-project-8fbf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614429174674:android:16346d732a006dd4832f4b",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614429174674-3n6mev2e8n15pss35tp91f0lgct0e3nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.final_project",
+            "certificate_hash": "3e569ed71f304b27e45b0621d5b339dc8123bbf7"
+          }
+        },
+        {
+          "client_id": "614429174674-bu6htksavvknrap56n3in63ev5c8b8le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs4UTqlHS3HB1WKG_vmPPkopNFdnM1lMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614429174674-bu6htksavvknrap56n3in63ev5c8b8le.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "614429174674-n6fmu99ar4jgh9ggp885kp2l41rsorb5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finalProject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614429174674:android:7a9d96eddd5e7b39832f4b",
+        "android_client_info": {
+          "package_name": "com.sekolahbeta.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614429174674-hjioes8rji82qn1av1ot143i34ljrvub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sekolahbeta.finalproject",
+            "certificate_hash": "3e569ed71f304b27e45b0621d5b339dc8123bbf7"
+          }
+        },
+        {
+          "client_id": "614429174674-bu6htksavvknrap56n3in63ev5c8b8le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs4UTqlHS3HB1WKG_vmPPkopNFdnM1lMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614429174674-bu6htksavvknrap56n3in63ev5c8b8le.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "614429174674-n6fmu99ar4jgh9ggp885kp2l41rsorb5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finalProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
