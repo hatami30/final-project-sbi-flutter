@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "614429174674-hjioes8rji82qn1av1ot143i34ljrvub.apps.googleusercontent.com",
+          "client_id": "614429174674-e8ro59sml8902ad4ioksuujcr8fq4f5h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.sekolahbeta.finalproject",
-            "certificate_hash": "3e569ed71f304b27e45b0621d5b339dc8123bbf7"
+            "certificate_hash": "1c2fab42f5f7504fab38fd90b7be85cf2724dba4"
           }
         },
         {
