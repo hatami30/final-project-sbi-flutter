@@ -3,6 +3,7 @@ import '../repositories/todo_repository.dart';
 
 class TodoApiService {
   final TodoRepository _todoRepository;
+  final List<TodoTask> _tasks = [];
 
   TodoApiService({required TodoRepository todoRepository})
       : _todoRepository = todoRepository;
@@ -37,9 +38,15 @@ class TodoApiService {
   Future<void> deleteTodoTask(String id) async {
     try {
       await _todoRepository.deleteTodoTask(id);
+      _tasks.removeWhere((task) => task.id == id);
+      notifyListeners();
     } catch (e) {
       print('Error deleting todo: $e');
       rethrow;
     }
+  }
+
+  void notifyListeners() {
+    print('Notifying listeners');
   }
 }

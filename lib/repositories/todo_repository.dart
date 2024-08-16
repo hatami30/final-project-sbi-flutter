@@ -73,9 +73,12 @@ class TodoRepository {
     final url = '$_apiUrl/$id';
     final response = await http.delete(Uri.parse(url));
 
-    if (response.statusCode != 204) {
+    print(
+        'Delete request sent to $url, received status code: ${response.statusCode}');
+
+    if (response.statusCode != 204 && response.statusCode != 200) {
       throw Exception(
-          'Failed to delete todo. Status code: ${response.statusCode}');
+          'Failed to delete todo. Status code: ${response.statusCode}, body: ${response.body}');
     }
   }
 }
