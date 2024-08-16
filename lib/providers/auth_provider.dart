@@ -36,6 +36,7 @@ class AuthProvider with ChangeNotifier {
       notifyListeners();
       return true;
     } catch (e) {
+      print('Error during Google sign-in: $e');
       return false;
     }
   }
@@ -45,6 +46,7 @@ class AuthProvider with ChangeNotifier {
       await _auth.signOut();
       await _googleSignIn.signOut();
     } catch (e) {
+      print('Error during sign-out: $e');
     } finally {
       notifyListeners();
     }
@@ -54,13 +56,19 @@ class AuthProvider with ChangeNotifier {
     try {
       await _auth.signInAnonymously();
       notifyListeners();
-    } catch (e) {}
+    } catch (e) {
+      print('Error during anonymous sign-in: $e');
+    }
   }
 
   Future<void> reloadUser() async {
     try {
-      await _auth.currentUser?.reload();
-      notifyListeners();
-    } catch (e) {}
+      if (_auth.currentUser != null) {
+        await _auth.currentUser!.reload();
+        notifyListeners();
+      }
+    } catch (e) {
+      print('Error during user reload: $e');
+    }
   }
 }
